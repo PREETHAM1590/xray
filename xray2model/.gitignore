@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json # Often excluded in libraries, included in apps - let's include for now
+# build/ # If frontend build output is generated
+
+# Data / Logs / Checkpoints
+data/raw/
+data/processed/
+logs/
+checkpoints/
+temp_data_loader_test/
+
+# IDE / OS files
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
